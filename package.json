@@ -1,0 +1,40 @@
+{
+  "name": "hotlogin-local-api-mcp",
+  "version": "1.0.3",
+  "private": false,
+  "main": "build/server.core.js",
+  "types": "build/server.core.d.ts",
+  "type": "commonjs",
+  "bin": {
+    "hotlogin-local-api-mcp": "./build/server.core.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.8.4",
+    "playwright-core": "^1.59.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "tsup": "^8.5.1",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "mcp",
+    "hotlogin",
+    "browser-management",
+    "local-api",
+    "browser-automation"
+  ],
+  "description": "MCP server for HotLogin Local API - Browser profile, proxy and group management"
+}

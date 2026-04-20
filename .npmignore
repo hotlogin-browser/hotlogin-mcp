@@ -1,0 +1,22 @@
+# 源代码
+src/
+
+# 开发配置
+.idea/
+.vscode/
+*.log
+.DS_Store
+
+# 文档
+skills/
+README.md
+LICENSE
+
+# 测试文件
+test/
+tests/
+*.test.js
+*.test.ts
+
+# 依赖
+node_modules/
