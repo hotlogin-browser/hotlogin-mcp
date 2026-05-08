@@ -1,6 +1,7 @@
 {
   "name": "hotlogin-local-api-mcp",
   "version": "1.0.3",
+  "license": "MIT",
   "private": false,
   "main": "build/server.core.js",
   "types": "build/server.core.d.ts",
