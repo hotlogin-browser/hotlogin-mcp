@@ -74,7 +74,7 @@ Windows 下若 `npx` 起不来，可改为 `"command": "cmd"`，`"args": ["/c", 
 | 变量 | 说明 |
 | --- | --- |
 | `PORT` / `API_PORT` | Local API 端口，默认 `60000` |
-| `BASE_URL` | 完整根地址，如 `http://127.0.0.1:50325` |
+| `BASE_URL` | 完整根地址，如 `http://127.0.0.1:60000` |
 | `API_KEY` | 鉴权 |
 
 ---
